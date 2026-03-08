@@ -12,7 +12,7 @@ export default function Gallery() {
     ]
 
     return (
-        <section className="py-28 bg-secondary">
+        <section className="py-28 bg-secondary max-md:py-16 max-sm:py-12">
 
             <Container>
 
@@ -20,11 +20,11 @@ export default function Gallery() {
 
                 <div className="text-center">
 
-                    <span className="bg-primary text-white px-5 py-2 rounded-full text-lg tracking-[3px]">
+                    <span className="bg-primary text-white px-5 py-2 rounded-full text-lg tracking-[3px] max-lg:text-base max-lg:px-4 max-sm:text-sm max-sm:tracking-[2px]">
                         GALLERY
                     </span>
 
-                    <h2 className="text-[52px] font-semibold text-primary mt-6 tracking-[8px]">
+                    <h2 className="text-[52px] font-semibold text-primary mt-6 tracking-[8px] max-lg:text-[40px] max-lg:tracking-[6px] max-md:text-[32px] max-md:tracking-[4px] max-sm:text-[24px] max-sm:tracking-[2px] max-sm:mt-4">
                         EXPLORE EXPERIENCE
                     </h2>
 
@@ -33,13 +33,13 @@ export default function Gallery() {
 
                 {/* IMAGES */}
 
-                <div className="grid grid-cols-5 gap-8 mt-16">
+                <div className="grid grid-cols-5 gap-8 mt-16 max-lg:grid-cols-3 max-lg:gap-6 max-md:grid-cols-2 max-md:gap-4 max-sm:mt-10 max-md:mx-auto">
 
                     {images.map((img, index) => (
 
                         <div
                             key={index}
-                            className="overflow-hidden rounded-2xl"
+                            className="overflow-hidden rounded-2xl w-full"
                         >
 
                             <Image
@@ -47,7 +47,7 @@ export default function Gallery() {
                                 alt="gallery"
                                 width={400}
                                 height={400}
-                                className="w-full h-[260px] object-cover hover:scale-110 transition duration-500"
+                                className="w-full h-[260px] object-cover hover:scale-110 transition duration-500 max-lg:h-[220px] max-md:h-[200px] max-sm:h-[160px]"
                             />
 
                         </div>

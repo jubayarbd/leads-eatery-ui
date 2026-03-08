@@ -38,20 +38,20 @@ export default function PopularDishes() {
     }
 
     return (
-        <section className="bg-secondary py-24">
+        <section className="bg-secondary py-24 max-md:py-16 max-sm:py-12">
 
             <Container>
 
                 {/* title */}
 
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center max-md:flex-col max-md:items-start max-md:gap-6">
 
                     <SectionTitle
                         title="OUR POPULAR DISHES"
                         subtitle="100% Halal, top-rated Indian food, dining & takeaway in London. From rich curries to flavorful grills, our chefs craft something delicious for every taste."
                     />
 
-                    <div className="flex items-center gap-4 bg-white p-1 rounded-full shadow">
+                    <div className="flex items-center gap-4 bg-white p-1 rounded-full shadow max-md:self-end">
 
                         <button
                             onClick={scrollLeft}
@@ -76,7 +76,7 @@ export default function PopularDishes() {
 
                 <div
                     ref={sliderRef}
-                    className="mt-12 flex gap-6 overflow-x-auto pb-4 no-scrollbar"
+                    className="mt-12 flex gap-6 overflow-x-auto pb-4 no-scrollbar max-md:gap-4 max-sm:gap-3 max-md:mt-8"
                 >
 
                     {dishes.map((dish, index) => (
