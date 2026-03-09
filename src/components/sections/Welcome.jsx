@@ -15,7 +15,7 @@ export default function Welcome() {
 
                     <div className="max-md:order-1 max-md:text-center max-md:flex max-md:flex-col max-md:items-center">
 
-                        <h2 className="text-[52px] font-semibold leading-[1.15] tracking-[-0.5px] text-text-dark max-lg:text-[42px] max-md:text-[36px] max-sm:text-[28px]">
+                        <h2 className="text-[52px] font-semibold leading-[1.15] tracking-[-0.5px] text-text-dark max-lg:text-[42px] max-md:text-[36px] max-sm:text-[32px]">
                             WELCOME TO LEADS
                             <br className="max-sm:hidden" />
                             {' '}EATERY, LONDON
@@ -57,7 +57,7 @@ export default function Welcome() {
 
                         <div className="flex gap-6 mt-10 max-lg:gap-4 max-lg:mt-8 max-md:w-full max-md:justify-center max-sm:flex-col max-sm:gap-4 max-sm:mt-6">
 
-                            <button className="flex items-center justify-center gap-3 bg-primary text-white px-6 py-3 rounded-lg shadow-md hover:opacity-90 transition max-lg:px-4 max-lg:py-2.5 max-lg:text-sm max-sm:w-full">
+                            <button className="flex items-center justify-center gap-3 bg-primary text-white px-6 py-3 rounded-lg shadow-md hover:opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 max-lg:px-4 max-lg:py-2.5 max-lg:text-sm max-sm:w-full">
 
                                 <span className="bg-white text-primary rounded-full p-1 max-lg:p-0.5">
                                     <ArrowRight size={16} className="max-lg:w-3.5 max-lg:h-3.5" />
@@ -67,7 +67,7 @@ export default function Welcome() {
 
                             </button>
 
-                            <button className="flex items-center justify-center gap-3 border border-primary text-primary px-6 py-3 rounded-lg font-medium max-lg:px-4 max-lg:py-2.5 max-lg:text-sm max-sm:w-full">
+                            <button className="flex items-center justify-center gap-3 border border-primary text-primary px-6 py-3 rounded-lg font-medium hover:bg-primary/5 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 max-lg:px-4 max-lg:py-2.5 max-lg:text-sm max-sm:w-full">
 
                                 <span className="bg-primary text-white rounded-full p-1 max-lg:p-0.5">
                                     <ArrowRight size={14} className="max-lg:w-3 max-lg:h-3" />

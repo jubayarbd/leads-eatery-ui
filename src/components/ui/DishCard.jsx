@@ -69,7 +69,7 @@ export default function DishCard({ image, title, price }) {
 
             {/* button */}
 
-            <button className="mt-4 w-full bg-primary text-white py-2 rounded-full text-sm max-sm:mt-3 max-sm:py-1.5 max-sm:text-xs">
+            <button className="mt-4 w-full bg-primary text-white py-2 rounded-full text-sm hover:opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 max-sm:mt-3 max-sm:py-1.5 max-sm:text-xs">
                 ADD TO CART
             </button>
 
