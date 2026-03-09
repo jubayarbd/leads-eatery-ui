@@ -13,7 +13,7 @@ export default function Contact() {
 
                     <div className="max-w-[620px] max-lg:mx-auto max-md:text-center">
 
-                        <h2 className="text-[48px] font-semibold text-black max-lg:text-[36px] max-md:text-[32px] max-sm:text-[28px]">
+                        <h2 className="text-[48px] font-semibold text-black max-lg:text-[36px] max-md:text-[32px] max-sm:text-[32px]">
                             CONTACT US
                         </h2>
 
@@ -37,7 +37,7 @@ export default function Contact() {
                                     <input
                                         type="text"
                                         placeholder="Abdur Rafiq"
-                                        className="w-full mt-2 px-3 py-2 border border-gray-300 rounded-md outline-none text-black placeholder:text-gray-400 focus:border-primary text-sm max-sm:py-1.5"
+                                        className="w-full mt-2 px-3 py-2 border border-gray-300 rounded-md outline-none text-black placeholder:text-gray-400 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all text-sm max-sm:py-1.5"
                                     />
                                 </div>
 
@@ -49,7 +49,7 @@ export default function Contact() {
                                     <input
                                         type="text"
                                         placeholder="+44 *** ***"
-                                        className="w-full mt-2 px-3 py-2 border border-gray-300 rounded-md outline-none text-black placeholder:text-gray-400 focus:border-primary text-sm max-sm:py-1.5"
+                                        className="w-full mt-2 px-3 py-2 border border-gray-300 rounded-md outline-none text-black placeholder:text-gray-400 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all text-sm max-sm:py-1.5"
                                     />
                                 </div>
 
@@ -66,7 +66,7 @@ export default function Contact() {
                                     <input
                                         type="email"
                                         placeholder="yourname@gmail.com"
-                                        className="w-full mt-2 px-3 py-2 border border-gray-300 rounded-md outline-none text-black placeholder:text-gray-400 focus:border-primary text-sm max-sm:py-1.5"
+                                        className="w-full mt-2 px-3 py-2 border border-gray-300 rounded-md outline-none text-black placeholder:text-gray-400 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all text-sm max-sm:py-1.5"
                                     />
                                 </div>
 
@@ -78,7 +78,7 @@ export default function Contact() {
                                     <input
                                         type="text"
                                         placeholder="Your subject line here"
-                                        className="w-full mt-2 px-3 py-2 border border-gray-300 rounded-md outline-none text-black placeholder:text-gray-400 focus:border-primary text-sm max-sm:py-1.5"
+                                        className="w-full mt-2 px-3 py-2 border border-gray-300 rounded-md outline-none text-black placeholder:text-gray-400 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all text-sm max-sm:py-1.5"
                                     />
                                 </div>
 
@@ -94,7 +94,7 @@ export default function Contact() {
                                 <textarea
                                     rows="6"
                                     placeholder="Write your message here"
-                                    className="w-full mt-2 px-3 py-2 border border-gray-300 rounded-md outline-none text-black placeholder:text-gray-400 focus:border-primary text-sm max-sm:py-1.5"
+                                    className="w-full mt-2 px-3 py-2 border border-gray-300 rounded-md outline-none text-black placeholder:text-gray-400 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all text-sm max-sm:py-1.5"
                                 />
 
                             </div>
@@ -102,7 +102,7 @@ export default function Contact() {
 
                             {/* SUBMIT BUTTON */}
 
-                            <button className="flex items-center gap-3 bg-primary text-white px-7 py-4 rounded-xl font-medium shadow hover:opacity-90 transition max-sm:w-full max-sm:justify-center max-sm:px-5 max-sm:py-3 max-sm:text-sm max-sm:rounded-lg max-md:mx-auto">
+                            <button className="flex items-center gap-3 bg-primary text-white px-7 py-4 rounded-xl font-medium shadow hover:opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 max-sm:w-full max-sm:justify-center max-sm:px-5 max-sm:py-3 max-sm:text-sm max-sm:rounded-lg max-md:mx-auto">
 
                                 <span className="bg-white text-primary p-1 rounded-full max-sm:p-0.5">
                                     <ArrowRight size={16} className="max-sm:w-3.5 max-sm:h-3.5" />

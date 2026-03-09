@@ -13,7 +13,7 @@ export default function Subscribe() {
 
                     <div className="max-md:text-center max-md:flex max-md:flex-col max-md:items-center">
 
-                        <h2 className="text-[48px] font-semibold leading-tight text-black max-lg:text-[36px] max-md:text-[32px] max-sm:text-[28px]">
+                        <h2 className="text-[48px] font-semibold leading-tight text-black max-lg:text-[36px] max-md:text-[32px] max-sm:text-[32px]">
                             SUBSCRIBE FOR FREE &
                             <br />
                             WIN UNLIMITED
@@ -36,7 +36,7 @@ export default function Subscribe() {
                                 className="flex-1 px-6 py-4 outline-none text-sm placeholder-gray-400 bg-transparent max-sm:w-full max-sm:bg-white max-sm:rounded-full max-sm:shadow-[0_4px_15px_rgba(0,0,0,0.05)] max-sm:py-3.5 max-sm:text-center"
                             />
 
-                            <button className="bg-primary text-white px-8 py-2 rounded-full mr-2 hover:opacity-90 transition max-sm:w-full max-sm:mr-0 max-sm:py-3 max-sm:shadow-md">
+                            <button className="bg-primary text-white px-8 py-2 rounded-full mr-2 hover:opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 max-sm:w-full max-sm:mr-0 max-sm:py-3 max-sm:shadow-md">
                                 SUBSCRIBE
                             </button>
 

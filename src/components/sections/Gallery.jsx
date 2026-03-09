@@ -47,7 +47,7 @@ export default function Gallery() {
                                 alt="gallery"
                                 width={400}
                                 height={400}
-                                className="w-full h-[260px] object-cover hover:scale-110 transition duration-500 max-lg:h-[220px] max-md:h-[200px] max-sm:h-[160px]"
+                                className="w-full h-[260px] object-cover hover:scale-105 transition-transform duration-500 max-lg:h-[220px] max-md:h-[200px] max-sm:h-[160px]"
                             />
 
                         </div>
