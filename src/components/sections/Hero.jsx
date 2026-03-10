@@ -20,7 +20,7 @@ export default function Hero() {
                 {/* center content */}
                 <div className="relative flex flex-col items-center justify-center text-center text-white h-[900px] max-w-[650px] mx-auto z-10 max-lg:h-auto max-lg:mx-0 max-lg:w-1/2 max-lg:items-start max-lg:text-left max-md:w-full max-md:items-center max-md:text-center">
 
-                    <h1 className="text-[75px] font-semibold leading-none tracking-[14px]} max-lg:text-[50px] max-lg:tracking-[10px] max-md:text-[45px] max-sm:text-[42px] max-sm:tracking-[6px]">
+                    <h1 className="text-[75px] font-semibold leading-none tracking-[12px] max-lg:text-[50px] max-lg:tracking-[10px] max-md:text-[45px] max-sm:text-[42px] max-sm:tracking-[6px]">
                         MAKE YOUR
                     </h1>
 
