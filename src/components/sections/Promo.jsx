@@ -93,7 +93,7 @@ export default function Promo() {
                             Habit for better health! ✌
                         </p>
 
-                        <h2 className="text-[48px] font-semibold mt-3 leading-tight text-black max-lg:text-[36px] max-md:text-[32px] max-sm:text-[28px]">
+                        <h2 className="text-[48px] font-semibold mt-3 leading-tight text-black max-lg:text-[36px] max-md:text-[32px] max-sm:text-[32px]">
                             UNLIMITED DISCOUNTS
                             <br />
                             EVERY TIME
@@ -112,7 +112,7 @@ export default function Promo() {
 
                         <div className="flex gap-5 mt-10 max-lg:gap-4 max-lg:mt-8 max-md:w-full max-md:justify-center max-sm:flex-col max-sm:gap-3 max-sm:mt-6">
 
-                            <button className="flex items-center justify-center gap-3 bg-primary text-white px-6 py-3 rounded-lg shadow-md hover:opacity-90 transition max-lg:px-4 max-lg:py-2.5 max-lg:text-sm max-sm:w-full">
+                            <button className="flex items-center justify-center gap-3 bg-primary text-white px-6 py-3 rounded-lg shadow-md hover:opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 max-lg:px-4 max-lg:py-2.5 max-lg:text-sm max-sm:w-full">
 
                                 <span className="bg-white text-primary rounded-full p-1 max-lg:p-0.5">
                                     <ArrowRight size={16} className="max-lg:w-3.5 max-lg:h-3.5" />
@@ -122,7 +122,7 @@ export default function Promo() {
 
                             </button>
 
-                            <button className="flex items-center justify-center gap-3 border border-primary text-primary px-6 py-3 rounded-lg font-medium max-lg:px-4 max-lg:py-2.5 max-lg:text-sm max-sm:w-full">
+                            <button className="flex items-center justify-center gap-3 border border-primary text-primary px-6 py-3 rounded-lg font-medium hover:opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 max-lg:px-4 max-lg:py-2.5 max-lg:text-sm max-sm:w-full">
 
                                 <span className="bg-primary text-white rounded-full p-1 max-lg:p-0.5">
                                     <ArrowRight size={14} className="max-lg:w-3 max-lg:h-3" />

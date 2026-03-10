@@ -29,7 +29,7 @@ export default function Hero() {
                     </p>
 
                     <div className="mt-8 max-md:mt-6">
-                        <button className="flex items-center gap-3 bg-primary text-white px-6 py-3 rounded-lg shadow-md hover:opacity-90 transition max-sm:px-4 max-sm:py-2 max-sm:text-sm">
+                        <button className="flex items-center gap-3 bg-primary text-white px-6 py-3 rounded-lg shadow-md hover:opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 max-sm:px-4 max-sm:py-2 max-sm:text-sm">
 
                             <span className="bg-white text-primary rounded-full p-1 max-sm:p-0.5">
                                 <ArrowRight size={16} className="max-sm:w-3 max-sm:h-3" />

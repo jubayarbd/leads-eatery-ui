@@ -1,5 +1,6 @@
 import Container from "@/components/ui/Container"
 import Image from "next/image"
+import Link from "next/link"
 import { Facebook, Instagram } from "lucide-react"
 import { SiTiktok } from "react-icons/si"
 
@@ -41,12 +42,12 @@ export default function Footer() {
                             Quick Links
                         </h4>
 
-                        <ul className="space-y-3 text-white/80 text-sm">
+                        <ul className="space-y-3 text-white/80 text-sm flex flex-col max-md:items-center">
 
-                            <li>Menu</li>
-                            <li>Categories</li>
-                            <li>Popular</li>
-                            <li>Blogs</li>
+                            <Link href="#" className="hover:text-white transition-colors duration-300 w-fit">Menu</Link>
+                            <Link href="#" className="hover:text-white transition-colors duration-300 w-fit">Categories</Link>
+                            <Link href="#" className="hover:text-white transition-colors duration-300 w-fit">Popular</Link>
+                            <Link href="#" className="hover:text-white transition-colors duration-300 w-fit">Blogs</Link>
 
                         </ul>
 
@@ -61,12 +62,12 @@ export default function Footer() {
                             Address
                         </h4>
 
-                        <ul className="space-y-3 text-white/80 text-sm">
+                        <ul className="space-y-3 text-white/80 text-sm flex flex-col max-md:items-center">
 
-                            <li>London</li>
-                            <li>Email</li>
-                            <li>Phone</li>
-                            <li>Privacy Policy</li>
+                            <Link href="#" className="hover:text-white transition-colors duration-300 w-fit">London</Link>
+                            <Link href="#" className="hover:text-white transition-colors duration-300 w-fit">Email</Link>
+                            <Link href="#" className="hover:text-white transition-colors duration-300 w-fit">Phone</Link>
+                            <Link href="#" className="hover:text-white transition-colors duration-300 w-fit">Privacy Policy</Link>
 
                         </ul>
 
@@ -86,19 +87,23 @@ export default function Footer() {
 
                         <div className="space-y-4 max-md:flex max-md:flex-row max-md:gap-4 max-md:space-y-0 max-sm:flex-col max-sm:space-y-3 max-sm:gap-0 max-sm:items-center">
 
-                            <Image
-                                src="/images/appstore.png"
-                                width={150}
-                                height={45}
-                                alt="app store"
-                            />
+                            <Link href="#" className="block hover:-translate-y-1 transition-transform duration-300">
+                                <Image
+                                    src="/images/appstore.png"
+                                    width={150}
+                                    height={45}
+                                    alt="app store"
+                                />
+                            </Link>
 
-                            <Image
-                                src="/images/googleplay.png"
-                                width={150}
-                                height={45}
-                                alt="google play"
-                            />
+                            <Link href="#" className="block hover:-translate-y-1 transition-transform duration-300">
+                                <Image
+                                    src="/images/googleplay.png"
+                                    width={150}
+                                    height={45}
+                                    alt="google play"
+                                />
+                            </Link>
 
                         </div>
 
@@ -107,9 +112,15 @@ export default function Footer() {
 
                         <div className="flex gap-6 mt-6 max-sm:mt-8">
 
-                            <Facebook size={20} />
-                            <Instagram size={20} />
-                            <SiTiktok size={20} />
+                            <Link href="#" aria-label="Facebook" className="hover:text-black hover:scale-110 hover:-translate-y-1 transition-all duration-300">
+                                <Facebook size={20} />
+                            </Link>
+                            <Link href="#" aria-label="Instagram" className="hover:text-black hover:scale-110 hover:-translate-y-1 transition-all duration-300">
+                                <Instagram size={20} />
+                            </Link>
+                            <Link href="#" aria-label="Tiktok" className="hover:text-black hover:scale-110 hover:-translate-y-1 transition-all duration-300">
+                                <SiTiktok size={20} />
+                            </Link>
 
                         </div>
 

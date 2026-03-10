@@ -24,7 +24,7 @@ export default function Categories() {
 
                 <div className="text-center max-w-[700px] mx-auto max-sm:px-4">
 
-                    <h2 className="text-[52px] font-semibold leading-[1.15] tracking-[-0.5px] text-text-dark max-lg:text-[42px] max-md:text-[36px] max-sm:text-[28px]">
+                    <h2 className="text-[52px] font-semibold leading-[1.15] tracking-[-0.5px] text-text-dark max-lg:text-[42px] max-md:text-[36px] max-sm:text-[32px]">
                         OUR CATEGORIES
                     </h2>
 
@@ -44,7 +44,7 @@ export default function Categories() {
 
                         <div
                             key={index}
-                            className="bg-white rounded-2xl shadow-md p-2 text-center hover:-translate-y-2 transition max-sm:w-full max-sm:mx-auto max-sm:max-w-[340px]"
+                            className="bg-white rounded-2xl shadow-md p-2 text-center hover:-translate-y-2 hover:scale-[1.02] hover:shadow-lg transition-all duration-300 max-sm:w-full max-sm:mx-auto max-sm:max-w-[340px]"
                         >
 
                             {/* Image box */}
